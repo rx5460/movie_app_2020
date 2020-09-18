@@ -1,26 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
+function Food({fav}) {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <h3> I love Poatato {fav}</h3>
   );
 }
+
+function App() {
+
+    return (
+    <div> 
+     <h1> hello!
+        <Food fav="김치" /> 
+        <Food fav="김치" />
+        </h1>
+    </div>
+    );
+  }
 
 export default App;
