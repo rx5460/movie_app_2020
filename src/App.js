@@ -1,63 +1,39 @@
 import React from 'react';
-import imgA from './images/1.jpg';
-import imgB from './images/2.jpg';
-import imgC from './images/3.jpg';
-import imgD from './images/4.jpg';
-import imgE from './images/5.jpg';
-function Food({name, images, altText}) {
 
-  return (
-      <div>
-        <h3> I love{name}</h3>
-        <img src = {images} alt ={altText} />
-      </div>
-  );
-}
+class App extends React.Component{
+   
+  state = {
+    count :0
+  };
 
-const foodLink = [
-{
-  id: 1,
-  name: '김치', altText: '피자를 먹는 모습',
-  
-  image: imgA
-},
-{
-  id: 2,
-  name: '피자', 
-  
-  image: imgB, altText: '피자를 먹는 모습'
-  
-},
-{
-  id: 3, altText: '피자를 먹는 모습',
-  
-  name: '햄버거',
-  image: imgC
+  add = () => {
 
-},{
-  id: 5, altText: '피자를 먹는 모습',
-  
-  name: '햄버거',
-  image: imgD
+    this.setState(current => ({
 
-},{
-  id: 4,
-  name: '햄버거', altText: '피자를 먹는 모습',
-  
-  image: imgE
+      count: current.count + 1,
 
-}
+    }));
 
-];
+  };
 
-function App() {
+  add = () => {
+
+    this.setState(current => ({
+
+      count: current.count - 1,     
+
+    }));
+    
+  };
+
+ render() {
     return (
-    <div> 
-
-    {foodLink.map(dish => (<Food name = {dish.name}  images = {dish.image} altText= {dish.altText}/>))}
-
-    </div>
+    <div>
+      <h1> I'm class component is:{this.state.count}</h1>
+    <button onClick={this.add}>Add</button>&nbsp;&nbsp;&nbsp;&nbsp;
+    <button onClick={this.minus}>minus</button>
+    </div>    
     );
-  }
-
+ }
+}
 export default App;
