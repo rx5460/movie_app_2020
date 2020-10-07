@@ -5,7 +5,7 @@
 ## movie_app_2020
 React JS Fundamentals Course 2020\
 
-## 9월 26일 
+## 10월 07일 
 1. 화살표 함수를 사용 해 보았다.
 2. javascript 에서 onClick을 사용하는 법을 배웠다
 3. setState() 를 사용하여  state객체를 업데이트 해보았습니다. 
