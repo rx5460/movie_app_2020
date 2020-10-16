@@ -5,6 +5,15 @@
 ## movie_app_2020
 React JS Fundamentals Course 2020\
 
+## 10월 16일
+
+1. axios를 사용해 보았습니다.
+2. componentDidMount을 사용 해 보았습니다.
+3. componentDidUpdate를 사용 해 보았습니다.
+4. async를 사용해 보았습니다.
+5. state를 사용하여 동적 데이터를 활용해 보았습니다.
+6. render 함수를 사용하여 jsx를 반환 해 보았습니다.
+
 ## 10월 07일 
 1. 화살표 함수를 사용 해 보았다.
 2. javascript 에서 onClick을 사용하는 법을 배웠다
