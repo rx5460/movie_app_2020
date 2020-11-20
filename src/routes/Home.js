@@ -23,10 +23,10 @@ class Home extends React.Component {
     return (
       <section className="container">
         { isLoading ? (
-        <div className="loader"><span class="loder__text">'Loading...'</span></div>
+        <div className="loader"><span className="loder__text">'Loading...'</span></div>
         )
           : (
-            <div class="movies">
+            <div className="movies">
             {movies.map( (movie) => {
             return (
               <Movie
@@ -37,6 +37,7 @@ class Home extends React.Component {
                 summary={movie.summary} 
                 poster={movie.medium_cover_image} 
                 genres={movie.genres}
+                rating={movie.rating}
               />)})}
             </div>
           )}
