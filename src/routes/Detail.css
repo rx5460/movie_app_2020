@@ -6,7 +6,6 @@
     width: 100%;
     max-width: 1000px;
     font-weight: 200;
-    white-space: nowrap;
-    word-wrap: none;
+    white-space: normal;
 }
 

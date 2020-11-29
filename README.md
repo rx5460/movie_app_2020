@@ -5,6 +5,16 @@
 ## movie_app_2020
 React JS Fundamentals Course 2020\
 
+## 11월 20일 
+   1. react router dom 과 link를 사용하여 페이지를 넘어가고 props로  값을 전달해 주는걸 만들어 보았습니다.
+   2. 값이 전달되지 않을때 홈으로 돌아가는 componentdidmount() 생명주기 함수를 사용하였습니다.
+   3. Detail.js 작업
+      a. div className을 사용하여 묶은 뒤 css로 꾸밀수 있게 하였습니다.
+      b. img src를 통해 이미지를 불러왔습니다.
+   4. Detail.css 작업
+      a. white-space를 사용하여 창을 줄이면 자동 줄바꿈이 되게 하였습니다
+
+
 ## 11월 13일
    1. 발목 다쳐서 수업을 못 듣고 집에서 직접 하였습니다..
    2. jsx의 바깥쪽은 section 앨리먼트로 감싸줍니다.
